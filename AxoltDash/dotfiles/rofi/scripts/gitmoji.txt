@@ -1,0 +1,73 @@
+🎨	Gitmoji	gitmoji	Improve structure / format of the code	art | artist palette | museum | painting | palette
+⚡️	Gitmoji	gitmoji	Improve performance	danger | electric | high voltage | lightning | voltage | zap
+🔥	Gitmoji	gitmoji	Remove code or files	fire | flame | tool
+🐛	Gitmoji	gitmoji	Fix a bug	bug | insect | caterpillar | worm
+🚑️	Gitmoji	gitmoji	Critical hotfix	ambulance | vehicle
+✨	Gitmoji	gitmoji	Introduce new features	* | sparkle | sparkles | star
+📝	Gitmoji	gitmoji	Add or update documentation	memo | pencil
+🚀	Gitmoji	gitmoji	Deploy stuff	rocket | space
+💄	Gitmoji	gitmoji	Add or update the UI and style files	cosmetics | lipstick | makeup | make-up
+🎉	Gitmoji	gitmoji	Begin a project	celebration | party | popper | tada | ta-da
+✅	Gitmoji	gitmoji	Add, update, or pass tests	✓ | button | check | mark | tick
+🔒️	Gitmoji	gitmoji	Fix security or privacy issues	closed | locked | padlock
+🔐	Gitmoji	gitmoji	Add or update secrets	closed | key | lock | locked with key | secure
+🔖	Gitmoji	gitmoji	Release / Version tags	bookmark | mark
+🚨	Gitmoji	gitmoji	Fix compiler / linter warnings	beacon | car | light | police | revolving
+🚧	Gitmoji	gitmoji	Work in progress	barrier | construction
+💚	Gitmoji	gitmoji	Fix CI Build	green | green heart
+⬇️	Gitmoji	gitmoji	Downgrade dependencies	arrow | down | down arrow
+⬆️	Gitmoji	gitmoji	Upgrade dependencies	arrow | up | up arrow
+📌	Gitmoji	gitmoji	Pin dependencies to specific versions	pin | pushpin | drawing-pin
+👷	Gitmoji	gitmoji	Add or update CI build system	construction | hat | worker
+📈	Gitmoji	gitmoji	Add or update analytics or track code	chart | chart increasing | graph | growth | trend | upward | graph increasing
+♻️	Gitmoji	gitmoji	Refactor code	recycle | recycling
+➕	Gitmoji	gitmoji	Add a dependency	+ | math | plus | sign | maths | add | addition
+➖	Gitmoji	gitmoji	Remove a dependency	- | − | math | minus | sign | heavy minus sign | maths | – | subtraction
+🔧	Gitmoji	gitmoji	Add or update configuration files	spanner | tool | wrench
+🔨	Gitmoji	gitmoji	Add or update development scripts	hammer | tool
+🌐	Gitmoji	gitmoji	Internationalization and localization	earth | globe | globe with meridians | meridians | world
+✏️	Gitmoji	gitmoji	Fix typos	pencil | edit
+💩	Gitmoji	gitmoji	Write bad code that needs to be improved	dung | face | monster | pile of poo | poo | poop
+⏪️	Gitmoji	gitmoji	Revert changes	arrow | double | fast reverse button | rewind
+🔀	Gitmoji	gitmoji	Merge branches	arrow | crossed | shuffle tracks button
+📦️	Gitmoji	gitmoji	Add or update compiled files or packages	box | package | parcel
+👽️	Gitmoji	gitmoji	Update code due to external API changes	alien | creature | extraterrestrial | face | fantasy | ufo | ET | UFO
+🚚	Gitmoji	gitmoji	Move or rename resources (e.g.: files, paths, routes)	delivery | truck
+📄	Gitmoji	gitmoji	Add or update license	document | page | page facing up
+💥	Gitmoji	gitmoji	Introduce breaking changes	boom | collision | comic
+🍱	Gitmoji	gitmoji	Add or update assets	bento | box
+♿️	Gitmoji	gitmoji	Improve accessibility	access | wheelchair symbol | disabled access
+💡	Gitmoji	gitmoji	Add or update comments in source code	bulb | comic | electric | idea | light | globe
+🍻	Gitmoji	gitmoji	Write code drunkenly	bar | beer | clink | clinking beer mugs | drink | mug | cheers
+💬	Gitmoji	gitmoji	Add or update text and literals	balloon | bubble | comic | dialog | speech | dialogue
+🗃️	Gitmoji	gitmoji	Perform database related changes	file | box
+🔊	Gitmoji	gitmoji	Add or update logs	loud | speaker high volume
+🔇	Gitmoji	gitmoji	Remove logs	mute | muted speaker | quiet | silent | speaker
+👥	Gitmoji	gitmoji	Add or update contributor(s)	bust | busts in silhouette | silhouette
+🚸	Gitmoji	gitmoji	Improve user experience / usability	child | children crossing | crossing | pedestrian | traffic
+🏗️	Gitmoji	gitmoji	Make architectural changes	building | construction
+📱	Gitmoji	gitmoji	Work on responsive design	cell | mobile | phone | telephone
+🤡	Gitmoji	gitmoji	Mock things	clown | face
+🥚	Gitmoji	gitmoji	Add or update an easter egg	breakfast | egg | food
+🙈	Gitmoji	gitmoji	Add or update a .gitignore file	evil | face | forbidden | monkey | see | see-no-evil monkey
+📸	Gitmoji	gitmoji	Add or update snapshots	camera | camera with flash | flash | video
+⚗️	Gitmoji	gitmoji	Perform experiments	science | lab | tube
+🔍️	Gitmoji	gitmoji	Improve SEO	glass | magnifying | magnifying glass tilted left | search | tool
+🏷️	Gitmoji	gitmoji	Add or update types	label | tag
+🌱	Gitmoji	gitmoji	Add or update seed files	seedling | young
+🚩	Gitmoji	gitmoji	Add, update, or remove feature flags	post | triangular flag | red flag
+🥅	Gitmoji	gitmoji	Catch errors	goal | net | goal cage
+💫	Gitmoji	gitmoji	Add or update animations and transitions	comic | dizzy | star
+🗑️	Gitmoji	gitmoji	Deprecate code that needs to be cleaned up	wastebasket | rubbish | bin | trash | waste paper basket
+🛂	Gitmoji	gitmoji	Work on code related to authorization, roles and permissions	control | passport | border | security
+🩹	Gitmoji	gitmoji	Simple fix for a non-critical issue	dressing
+🧐	Gitmoji	gitmoji	Data exploration/inspection	face | face with monocle | monocle | stuffy
+⚰️	Gitmoji	gitmoji	Remove dead code	coffin | death | casket | funeral
+🧪	Gitmoji	gitmoji	Add a failing test	chemist | chemistry | experiment | lab | science | test tube
+👔	Gitmoji	gitmoji	Add or update business logic	clothing | necktie | tie
+🩺	Gitmoji	gitmoji	Add or update healthcheck	doctor | heart | medicine | stethoscope
+🧱	Gitmoji	gitmoji	Infrastructure related changes	brick | bricks | clay | mortar | wall
+🧑‍💻	Gitmoji	gitmoji	Improve developer experience	coder | developer | inventor | software | technologist
+💸	Gitmoji	gitmoji	Add sponsorships or money related infrastructure	banknote | bill | fly | money | money with wings | wings
+🧵	Gitmoji	gitmoji	Add or update code related to multithreading or concurrency	needle | sewing | spool | string | thread
+🦺	Gitmoji	gitmoji	Add or update code related to validation	emergency | safety | vest | hi-vis | high-vis | jacket | life jacket

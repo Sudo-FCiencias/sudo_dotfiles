@@ -1,0 +1,23 @@
+# Habilitar modo oscuro
+set recolor "true"
+set recolor-lightcolor "#000000"
+set recolor-darkcolor "#F2E5BC"
+
+# Mostrar números de página
+set statusbar-basename "false"
+set statusbar-h-padding 10
+set statusbar-v-padding 10
+
+# Atajos de teclado personalizados
+map <C-d> scroll half-down
+map <C-u> scroll half-up
+map j feedkeys "<C-Down>"
+map k feedkeys "<C-Up>"
+map h feedkeys "<C-Left>"
+map l feedkeys "<C-Right>"
+
+# Cambiar a modo pantalla completa
+map <C-i> recolor
+
+# Habilitar copiado de texto con el ratón
+set selection-clipboard clipboard

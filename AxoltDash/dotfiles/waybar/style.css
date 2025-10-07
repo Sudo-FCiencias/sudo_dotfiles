@@ -1,0 +1,110 @@
+* {
+    border: none;
+    font-family: "RobotoMono Nerd Font", "RainWorldSymbols";
+    font-size: 10px;
+    color: #d7c483;
+    border-radius: 8px;
+    margin: -1px 0 -1.5px 0;
+}
+
+window {
+	font-weight: bold;
+}
+window#waybar {
+    background: rgba(6, 6, 6, 0.4);
+}
+/*-----module groups----*/
+.modules-right {
+	background-color: rgba(34, 34, 34, 0.80);
+  border-radius: 0 0 0 8px;
+  color: #d7c483;
+
+}
+.modules-left {
+  background-color: rgba(0,0,0,0);
+  border-radius: 0px 0px 8px 0px;
+  color: #d7c483;
+}
+.modules-center { 
+	background-color: rgba(18, 17, 16, 0.80);
+  border-radius: 8px 8px 8px 8px;
+  color: #d7c483;
+}
+/*-----modules indv----*/
+#workspaces {
+  border-radius: 0px 0px 8px 0px;
+  background-color: rgba(18,17,16,0.80);
+  color: #d7c483;
+}
+
+#workspaces button.active {
+  background-color: rgba(46,45,45,0.80);
+  color: #f2e5bc;
+}
+
+#window {
+  background-color: rgba(0,0,0,0);
+  color: #d7c483;
+}
+
+#clock {
+  padding: 0px 5px 0 10px;
+}
+#mode {
+    color: #cc3436;
+    font-weight: bold;
+}
+#custom-power {
+    background-color: rgba(110,147,127,0.6);
+}
+
+/*-----Indicators----*/
+#network {
+    color: #d7c483;
+}
+#pulseaudio.muted {
+    color: #b36d43;
+}
+#battery.charging {
+    color: #78824b;
+}
+#battery.warning:not(.charging) {
+	color: #b36d43;
+}
+#battery.critical:not(.charging) {
+  color: #cc3436;
+}
+#temperature.warning {
+  color: #b36d43;
+}
+#temperature.critical {
+  color: #cc3436;
+}
+#cpu {
+  padding: 0px 10px 0 5px;
+}
+
+#cpu.warning {
+  color: #b36d43;
+}
+#cpu.critical {
+  color: #cc3436;
+}
+#memory.warning {
+  color: #b36d43;
+}
+#memory.critical {
+  color: #cc3436;
+}
+
+#custom-menu {
+  color: #B2D6D1;
+}
+
+#custom-blue-light-filter.enabled {
+    color: #d7c483; /* Color cuando está activado */
+}
+
+#custom-blue-light-filter.disabled {
+    color: #94885f;  /* Color cuando está desactivado */
+}

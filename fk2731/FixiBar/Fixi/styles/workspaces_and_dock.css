@@ -1,0 +1,23 @@
+#dock,
+#workspaces {
+  background-color: @bg-color;
+  padding: 3px 6px;
+}
+
+#workspaces button {
+  background-color: #333333;
+  color: @text-color;
+}
+
+#workspaces button.active {
+  background-color: white;
+  padding: 0 15px;
+}
+
+#workspaces button.urgent {
+  background-color: @urgent-color;
+}
+
+#workspaces button.empty {
+  background-color: @foreground;
+}

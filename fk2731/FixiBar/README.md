@@ -2,7 +2,7 @@
 
 This repo contains my customizations.
 
-[![Original Repo](https://img.shields.io/badge/Original%20FixiBar-181717?style=flat&logo=github)](https://github.com/fk2731/FixiBar)
+[![Original Repo](https://img.shields.io/badge/Original%20Repo-181717?style=flat&logo=github)](https://github.com/fk2731/FixiBar)
 
 ## Installation
 
@@ -140,3 +140,4 @@ https://github.com/user-attachments/assets/eb8f77e7-56c7-42b3-b525-ddde123d1077
 | Lock screen    | Super + Shift + L |
 
 ---
+

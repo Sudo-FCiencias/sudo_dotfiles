@@ -12,25 +12,45 @@ Despues gracias a otros canales como Zatiel, The Linux Cast, y varios otros cono
 
 La distro de EndeavourOS es un proyecto reciente OpenSource, es como un hijo de Arch, pero con un instalador grafico, ligera, rapida, con repositorios tanto los de Arch como los suyos propios, es Rolling Release lo cual significa que recibes las versiones mas nuevas de cualquier cosa que descargues. 
 
+---- 
 ## Ghostty 
 
 Ghostty es una herramienta bastante reciente, antes usaba Warp, pero me termino gustando ghostty por su rapidez, su configuracion ultra sencilla, sus comandos que ayudan mucho a alguien que es principiante y no quiere lidiar con demasiada configuracion, tiene propios esquemas de color y basta con cambiar el nombre en su config, ademas esta escrito en Zig un lenguaje muy bueno. Tiene soporte para Shaders tambien. Y pues sirve como cualquier otra terminal. 
+
+----
 
 ## Waybar 
 
 Fue la barra de la que encontre mas y mejores tutoriales y repositorios con ejemplos, es sencilla de configurar mediante json, y con estilos muy buenos a lograr, ademas que los scripts funcionan muy bien con integracion con otros con Rofi, o wofi.
 
+---- 
 
 ## Synthwave
 
 Esta inspirada la estetica en un tema de VsCode que se llama Synthwave porque me gustan las paletas de colores moradas oscuras, porque me fui aburriendo del tipico gris y luego de los azules que parecen mucho TokyoNight, entonces preferi algo morado. 
 
+---- 
+
 ## Zsh 
 
 Empece a usar Zsh por los tutoriales para personalizar la terminal de los que hable antes, pero lo sigo usando porque es bastante util, tiene su propia forma de personalizar, sus propias configuraciones, instalacion de plugins, sugerencias, etc.
+
+---- 
 
 ## Starship
 
 No uso otra cosa que el promp de Starship de Catpuccin Mocha pero es muy util porque puede marcar el tipo de proyecto y versiones, hasta si estas con algo de la nube activo, versiones de paquetes, etc. 
 
+----  
 
+## LazyVim (neovim)
+
+Aqui no tengo mucho que decir porque tiene poco que lo uso, pero es muy util para ir haciendo cualquier tarea de editar configuraciones y ayuda muchisimo a no perderse tanto ademas de que puede ser un IDE si asi lo configuras.
+
+----  
+## Como se ve 
+
+<p>
+   <img src="assets/desktop01.png" alt="image1" style="border-radius: 4px; max-width: 100%; margin: 8px;">
+  <img src="assets/desktop02.png" alt="image1" style="border-radius: 4px; max-width: 100%; margin: 8px;">
+</p>

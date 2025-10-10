@@ -1,0 +1,153 @@
+/* ============================
+   General
+============================ */
+* {
+    font-family: Material Design Icons, JetBrainsMono Nerd Font, Iosevka Nerd Font;
+    font-size: 10px;
+    padding: 0;
+    margin: 0;
+    min-height: 0;
+    min-width: 0;
+    border: none;
+}
+
+#waybar {
+    padding: 0;
+}
+
+window#waybar {
+    background-color: rgba(20, 0, 40, 0.7); /* Synthwave dark purple */
+    color: #f8f8f2;
+    transition: background-color 0.5s;
+}
+
+window#waybar.hidden {
+    opacity: 0.1;
+}
+
+/* ============================
+   Widget Base
+============================ */
+#clock,
+#cpu,
+#memory,
+#backlight,
+#battery,
+#pulseaudio,
+#network,
+#custom-lock,
+#custom-power-menu,
+#custom-launcher,
+#custom-power-profile,
+#mode,
+#workspaces,
+#tray,
+#bluetooth {
+    background-color: #1a002b; /* Synthwave panel base */
+    color: #f8f8f2;
+    padding: 2px 4px;
+    margin: 7px 3px;
+    font-size: 10px;
+    border-radius: 6px;
+    transition: background-color 0.3s, color 0.3s;
+    min-width: 0;
+}
+
+/* ============================
+   Workspaces
+============================ */
+#workspaces button {
+    color: #ff6ec7; /* pink neon para el fantasmita */
+    background-color: transparent;
+    padding: 0 6px;
+    margin: 0 4px;
+}
+
+#workspaces button.focused {
+    color: #f1fa8c; /* amarillo para el pacman activo */
+    padding: 0 10px;
+    margin: 0;
+}
+
+/* ============================
+   Clock
+============================ */
+#clock {
+    color: #ffb86c; /* synthwave orange */
+    font-family: Iosevka Nerd Font;
+    font-weight: bold;
+    padding: 2px 4px;
+}
+
+/* ============================
+   System Modules
+============================ */
+#cpu { color: #ff79c6; font-size: 10px; }     
+#memory { color: #8be9fd; font-size: 10px; }  
+#backlight { color: #50fa7b; font-size: 16px; }  
+#pulseaudio { color: #bd93f9; font-size: 16px; }
+#pulseaudio.muted { color: #ff5555; }  
+#network { color: #ff6ec7; font-size: 16px; }
+#network.disconnected { color: #ff5555; }
+
+/* ============================
+   Battery
+============================ */
+#battery {
+    font-size: 16px;
+    min-width: 0;
+    padding: 2px 4px;
+    border-radius: 6px;
+    background-color: #1a002b;
+    color: #f1fa8c;
+}
+
+#battery.warning { color: #ffb86c; }
+#battery.critical:not(.charging) { color: #ff5555; }
+
+/* Bateria crítica parpadeo */
+@keyframes blink-battery {
+    0% { background-color: #1a002b; color: #ff5555; }
+    50% { background-color: #ff5555; color: #1a002b; }
+    100% { background-color: #1a002b; color: #ff5555; }
+}
+#battery.critical:not(.charging) {
+    animation: blink-battery 1s infinite;
+}
+
+/* ============================
+   Custom Modules
+============================ */
+#custom-lock { color: #ff79c6; font-size: 16px; }        /* candado */
+#custom-launcher { color: #8be9fd; font-size: 16px; }    /* pinguino Linux */
+#custom-power-menu { color: #ffb86c; font-size: 16px; }
+#custom-power-profile { color: #50fa7b; font-size: 16px; } /* rayito */
+#bluetooth { color: #bd93f9; font-size: 16px; }          /* bluetooth activo */
+
+/* ============================
+   Tray
+============================ */
+#tray {
+    font-size: 16px;
+    margin: 7px 3px;
+}
+#tray > .passive { -gtk-icon-effect: dim; }
+#tray > .needs-attention { -gtk-icon-effect: highlight; background-color: #ff5555; }
+
+/* ============================
+   Tooltips
+============================ */
+tooltip {
+    font-family: Iosevka Nerd Font;
+    font-size: 10px;
+    padding: 6px;
+    background-color: rgba(30, 0, 50, 0.9);
+    color: #f8f8f2;
+    border-radius: 10px;
+}
+
+tooltip label {
+    font-family: Iosevka Nerd Font;
+    padding: 3px;
+}
+

@@ -1,0 +1,120 @@
+{
+    "height": 50,
+    "layer": "top",
+    "modules-left": ["custom/launcher", "sway/workspaces", "sway/mode"],
+    "modules-right": ["tray", "network", "pulseaudio", "backlight", "battery", "bluetooth", "custom/power-profile", "custom/lock", "clock", "custom/power-menu"],
+
+    "sway/workspaces": {
+        "disable-scroll": true,
+        "all-outputs": true,
+        "format": "{icon} {name}",
+        "on-click": "activate",
+        "persistent-workspaces": {
+            "1:terminal": [],
+            "2:browser": [],
+            "3:coding": [],
+            "4:files": [],
+            "5:recording": []
+        },
+        "format-icons": {
+            "focused": "󰮯",
+            "default": ""
+        },
+
+    },
+
+    "sway/window": {
+      "format": "{}",
+      "max-length": 50,
+      "tooltip": false
+    },
+
+    "tray": {
+        "spacing": 20
+    },
+
+    "clock": {
+        "format": "{:%H:%M}",
+        "format-alt": "{:%a, %b %d}",
+        "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>"
+    },
+
+    "backlight": {
+        "device": "intel_backlight",
+        "format": "{icon} {percent}%",
+        "tooltip-format": "{percent}%",
+        "format-icons": ["󱩎", "󱩏", "󱩐", "󱩑", "󱩒", "󱩓", "󱩔", "󱩕", "󱩖", "󰛨"]
+    },
+
+    "network": {
+        "format-wifi": "{icon} {essid}",
+        "format-ethernet": " {ipaddr}",
+        "format-disconnected": "睊",
+        "tooltip-format": "{essid}\n{signalStrength}%",
+        "on-click": "~/.config/waybar/scripts/network/rofi-network-manager.sh",
+        "format-icons": ["󰤯","󰤟","󰤢","󰤥","󰤨"]
+    },
+
+    "bluetooth": {
+        "format": " {status}",
+        "format-connected": " {num_connections} connected",
+        "tooltip-format": "{controller_alias}\n{controller_address}",
+        "tooltip-format-connected": "{controller_alias}\n{controller_address}\n\n{device_enumerate}",
+        "tooltip-format-enumerate-connected": "{device_alias}\t{device_address}",
+        "on-click": "~/.config/waybar/scripts/rofi-bluetooth"
+    },
+
+    "pulseaudio": {
+        "format": "{icon} {volume}%",
+        "format-muted": "婢",
+        "format-icons": {
+            "default": ["", "", "墳"]
+        },
+        "on-click": "pavucontrol &"
+    },
+
+    "battery": {
+        "bat": "BAT0",
+        "adapter": "AC",
+        "interval": 60,
+        "states": {
+            "warning": 30,
+            "critical": 15
+        },
+        "format": "{capacity}% {icon}",
+        "format-warning": " {capacity}%",
+        "format-critical": " {capacity}%",
+        "format-charging": " {capacity}%",
+        "format-plugged": "ﮣ {capacity}%",
+        "format-icons": ["󱊡", "󱊢", "󱊣"],
+        "max-length": 50
+    },
+
+
+    "custom/lock": {
+        "tooltip": "Lock screen",
+        "on-click": "swaylock",
+        "format": " "
+    },
+
+    "custom/power-menu": {
+        "tooltip": "Power Menu",
+        "format": "⏻",
+        "on-click": "bash ~/.config/waybar/scripts/power-menu/powermenu.sh &"
+    },
+
+    "custom/launcher": {
+        "tooltip": "Applications",
+        "format": "  ",
+        "on-click": "rofi -show drun &"
+    },
+
+    "custom/power-profile": {
+        "tooltip": "Power Profile",
+        "format": "",
+        "tooltip": "Profile",
+        "on-click": "/home/eleazar/.config/waybar/scripts/power-profile-menu.sh"
+    }
+}
+
+
